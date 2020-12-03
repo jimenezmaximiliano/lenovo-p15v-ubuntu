@@ -7,23 +7,9 @@ https://certification.ubuntu.com/hardware/202008-28186
 
 ## BIOS
 
-- Secure boot: disabled
+Set to default
 
-## Kernel + nvidia drivers
+## Kernel 5.6.0.1035 + nvidia drivers 455
 
-### 5.4.0.56
-
-### 5.6.0.1021
-
-### 5.8.0.29.31
-
-## Issues
-
-### Suspend and hibernate does not work
-
-When trying to suspend the system wakes up automatically
-
-### Sometimes you cannot turn off the computer
-
-### One time it froze completely
+### Issues
 
