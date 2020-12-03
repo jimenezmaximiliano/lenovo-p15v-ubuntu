@@ -8,8 +8,20 @@ https://certification.ubuntu.com/hardware/202008-28186
 ## BIOS
 
 Set to default
+- Secure boot: disabled
 
 ## Kernel 5.6.0.1035 + nvidia drivers 455
 
 ### Issues
+
+### Symptoms
+
+#### dmesg
+
+- jcef_helper[8883]: segfault at 4 ip 00007f6abafab8c7 sp 00007ffc044b93f8 error 6 in libnvidia-glcore.so.455.38[7f6ab9c6c000+15bb000]
+
+
+## Links
+
+[Forums](https://forums.lenovo.com/t5/ThinkPad-P-and-W-Series-Mobile-Workstations/bd-p/tp07_en)
 
