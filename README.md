@@ -187,3 +187,6 @@ to disconnect and connect again doesn't work either. Disabling bluetooth and ena
 | Switch user (lid closed)       | KO            | The screen goes black                                 |
 | Power on and quickly close lid | OK            | It started working :)                                 |
 
+---
+
+sudo apt install gnumeric libreoffice vlc
