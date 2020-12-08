@@ -190,3 +190,9 @@ to disconnect and connect again doesn't work either. Disabling bluetooth and ena
 ---
 
 sudo apt install gnumeric libreoffice vlc
+
+---
+
+| Kernel        | GPU driver    |
+| ------------- |:-------------:|
+| 5.6.0-1036    | nvidia 440    |
