@@ -206,9 +206,9 @@ sudo apt install gnumeric libreoffice vlc
 - sudo apt install golang-go
 - I'm going to try fixing the wifi/bluetooth issue by upgrading to 5.8
 
-| Kernel        | GPU driver       |
-| ------------- |:----------------:|
-| 5.8.0-33      | nvidia 440.95.01 |
+| Kernel        | GPU driver       | Wifi firmware                   |
+| ------------- |:----------------:|:-------------------------------:|
+| 5.8.0-33      | nvidia 440.95.01 | 50.3e391d3e.0 QuZ-a0-hr-b0-50.u |
 
 | Test                           | Result        | Notes                                                 |
 | ------------------------------ |:-------------:|:-----------------------------------------------------:|
