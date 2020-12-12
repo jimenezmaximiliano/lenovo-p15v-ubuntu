@@ -33,6 +33,7 @@ The laptop is connected to an external screen (Dell) and a usb hub through USB c
 - After switching users my bluetooth headset connects and freezes every bluetooth device and also doesn't work. Trying
 to disconnect and connect again doesn't work either. Disabling bluetooth and enabling it again doesn't fix it either.
   Restarting the bluetooth service works
+- Sometimes both wifi and bluetooth stop working and it only starts working again when I reboot
   
 ### Issues that were fixed
 
@@ -196,3 +197,5 @@ sudo apt install gnumeric libreoffice vlc
 | Kernel        | GPU driver    |
 | ------------- |:-------------:|
 | 5.6.0-1036    | nvidia 440    |
+
+
