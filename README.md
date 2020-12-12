@@ -172,7 +172,7 @@ to disconnect and connect again doesn't work either. Disabling bluetooth and ena
 | ------------- |:-------------:|
 | 5.6.0-1035    | nvidia 440    |
 
-| Test                | Result        | Notes                                                 |
+| Test                           | Result        | Notes                                                 |
 | ------------------------------ |:-------------:|:-----------------------------------------------------:|
 | Reboot                         | OK            | -                                                     |
 | Reboot (lid closed)            | OK            | -                                                     |
@@ -198,4 +198,30 @@ sudo apt install gnumeric libreoffice vlc
 | ------------- |:-------------:|
 | 5.6.0-1036    | nvidia 440    |
 
+---
 
+- sudo apt install php composer
+- sudo add-apt-repository ppa:longsleep/golang-backports
+- sudo apt update
+- sudo apt install golang-go
+- I'm going to try fixing the wifi/bluetooth issue by upgrading to 5.8
+
+| Kernel        | GPU driver       |
+| ------------- |:----------------:|
+| 5.8.0-33      | nvidia 440.95.01 |
+
+| Test                           | Result        | Notes                                                 |
+| ------------------------------ |:-------------:|:-----------------------------------------------------:|
+| Reboot                         | OK            | -                                                     |
+| Reboot (lid closed)            | -             | -                                                     |
+| Shutdown                       | OK            | -                                                     |
+| Shutdown (lid closed)          | -             | -                                                     |
+| Suspend                        | OK            | -                                                     |
+| Suspend (lid closed)           | -             | -                                                     |
+| Additional drivers             | OK            | As expected (one unknown device)                      |
+| Nvidia settings                | OK            | -                                                     |
+| Logout                         | OK            | -                                                     |
+| Logout (lid closed)            | KO            | It froze                                              |
+| Switch user                    | OK            | -                                                     |
+| Switch user (lid closed)       | -             | -                                 |
+| Power on and quickly close lid | KO            | After logging in it gets suspended                    |
