@@ -225,3 +225,10 @@ sudo apt install gnumeric libreoffice vlc
 | Switch user                    | OK            | -                                                     |
 | Switch user (lid closed)       | -             | -                                 |
 | Power on and quickly close lid | KO            | After logging in it gets suspended                    |
+
+---
+
+- Updated /etc/default/grub (see config folder). Set resolution to 640x480
+- sudo update-grub
+- Disabled fastbook on Windows 10
+- Made Windows 10 use UTC (see utils folder)
