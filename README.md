@@ -25,7 +25,7 @@ The laptop is connected to an external screen through HDMI
 
 ### Current issues
 
-- WIP
+- When switching users with the lid closed, you can login but after that the laptop gets suspended
   
 ## Issues that I had with Ubuntu 20.04
 
@@ -38,11 +38,11 @@ The laptop is connected to an external screen through HDMI
 to disconnect and connect again doesn't work either. Disabling bluetooth and enabling it again doesn't fix it either.
   Restarting the bluetooth service works
 - Sometimes both wifi and bluetooth stop working and it only starts working again when I reboot
-- If you turn off the laptop and immediately close the lid, you get the alternate modes error (see change log)
+- If you turn on the laptop and immediately close the lid, you get the alternate modes error (see change log)
 - After suspending I cannot change the keyboard layout
 
 ## Change logs
 
 - I've tried to use Ubuntu 20.04 (see changelogs/1-Ubuntu-20-04.md)
 - I've installed Ubuntu 20.10 for a couple of hours, it seemed to work better but I decided to give Pop OS a go
-- Pop OS is the current OS I'm using
+- Pop OS is the current OS I'm using (see changelogs/2-PopOs-20-10.md)
