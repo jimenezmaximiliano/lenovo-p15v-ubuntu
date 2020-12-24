@@ -27,6 +27,7 @@ The laptop is connected to an external screen through HDMI
 
 - When switching users with the lid closed, you can login but after that the laptop gets suspended
 - After one day I've got a random disconnection from wifi. It took a while to be connected again. It might be related to expressvpn but it doesn't seem to be since turned it off and it still didn't work
+- Randomly the external monitor has corrupted graphics with pixelated and shaky images
   
 ## Issues that I had with Ubuntu 20.04
 

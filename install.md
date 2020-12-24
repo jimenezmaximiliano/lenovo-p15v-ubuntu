@@ -14,7 +14,7 @@ sudo add-apt-repository \
 sudo apt update
 
 ## Apt install
-sudo apt install -y synaptic git vim snapd python3-gpg dbeaver-ce gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam
+sudo apt install -y synaptic git vim snapd python3-gpg dbeaver-ce gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp
 
 ## Docker
 sudo usermod -aG docker ${USER}
@@ -34,6 +34,7 @@ sudo snap install --classic phpstorm && \
 sudo snap install --classic goland && \
 sudo snap install --classic sublime-text && \
 sudo snap install --classic zoom-client && \
+sudo snap install shutter && \
 sudo snap install --classic slack
 
 ## Git config
