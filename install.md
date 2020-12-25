@@ -35,6 +35,7 @@ sudo snap install --classic goland && \
 sudo snap install --classic sublime-text && \
 sudo snap install --classic zoom-client && \
 sudo snap install shutter && \
+sudo snap install skype --classic && \
 sudo snap install --classic slack
 
 ## Git config
