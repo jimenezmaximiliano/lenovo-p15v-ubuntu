@@ -16,7 +16,7 @@ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.rel
 sudo apt update
 
 ## Apt install
-sudo apt install -y synaptic git vim snapd python3-gpg dbeaver-ce gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp terraform
+sudo apt install -y synaptic git vim snapd python3-gpg gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp terraform awscli ansible docker-compose parallel gitg mysql-client pdfshuffler
 
 ## Docker
 sudo usermod -aG docker ${USER}
@@ -38,6 +38,7 @@ sudo snap install --classic sublime-text && \
 sudo snap install --classic zoom-client && \
 sudo snap install shutter && \
 sudo snap install skype --classic && \
+sudo snap install dbeaver-ce && \
 sudo snap install --classic slack
 
 ## Git config
