@@ -9,7 +9,7 @@ This system was tested with 20.04 LTS, running the 5.6.0-1021-oem kernel.
 
 ### BIOS
 
-Version: 1.15 2020-10-26
+Version: 1.16 2021-01-21
 
 - Set to default
 - Secure boot: disabled
@@ -26,8 +26,11 @@ The laptop is connected to an external screen through HDMI
 ### Current issues
 
 - When switching users with the lid closed, you can login but after that the laptop gets suspended
+  - I haven't tried that in a while
 - After one day I've got a random disconnection from wifi. It took a while to be connected again. It might be related to expressvpn but it doesn't seem to be since turned it off and it still didn't work
+  - It hasn't happened in months
 - Randomly the external monitor has corrupted graphics with pixelated and shaky images
+  - It hasn't happened in months
   
 ## Issues that I had with Ubuntu 20.04
 
