@@ -21,16 +21,18 @@ The laptop is connected to an external screen through HDMI
 ### Ubuntu Pop OS
 
 - Kernel: 5.8.0-7630-generic
-- Nvidia drivers: 455.38
+- Nvidia drivers: 460.32.03
 
 ### Current issues
 
+- Turn off the laptop, plug it in to both power and thunderbolt3. Turn it on and leave it for a while. The login software becomes completely unresponsive but I can switch to
+another tty and reboot the laptop. This happens often.
+
+## Issues that I haven't seen in a while
+
 - When switching users with the lid closed, you can login but after that the laptop gets suspended
-  - I haven't tried that in a while
 - After one day I've got a random disconnection from wifi. It took a while to be connected again. It might be related to expressvpn but it doesn't seem to be since turned it off and it still didn't work
-  - It hasn't happened in months
 - Randomly the external monitor has corrupted graphics with pixelated and shaky images
-  - It hasn't happened in months
   
 ## Issues that I had with Ubuntu 20.04
 
