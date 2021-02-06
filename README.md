@@ -27,6 +27,10 @@ The laptop is connected to an external screen through HDMI
 
 - Turn off the laptop, plug it in to both power and thunderbolt3. Turn it on and leave it for a while. The login software becomes completely unresponsive but I can switch to
 another tty and reboot the laptop. This happens often.
+  - Update: it doesn't do anything on keyboard input but you can move the mouse, select the user and then
+it works.
+- After starting using a 155hz monitor, CSGO works well for a while and then dips to 13fps and my ping
+goes through the roof. It doesn't happen on Windows 10
 
 ## Issues that I haven't seen in a while
 

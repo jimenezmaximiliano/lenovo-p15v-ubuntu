@@ -6,17 +6,19 @@ echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list
 echo "deb https://dl.bintray.com/getinsomnia/Insomnia /" | sudo tee -a /etc/apt/sources.list.d/insomnia.list
 wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc | sudo apt-key add -
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
 
 sudo apt update
 
 ## Apt install
-sudo apt install -y synaptic git vim snapd python3-gpg gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp terraform awscli ansible docker-compose parallel gitg mysql-client pdfshuffler bleachbit php-xml python remmina
+sudo apt install -y synaptic git vim snapd python3-gpg gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp terraform awscli ansible docker-compose parallel gitg mysql-client pdfshuffler bleachbit php-xml python remmina signal-desktop
 
 ## Docker
 sudo usermod -aG docker ${USER}
