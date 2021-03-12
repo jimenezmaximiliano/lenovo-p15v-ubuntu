@@ -18,7 +18,7 @@ echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sud
 sudo apt update
 
 ## Apt install
-sudo apt install -y synaptic git vim snapd python3-gpg gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp terraform awscli ansible docker-compose parallel gitg mysql-client pdfshuffler bleachbit php-xml python remmina signal-desktop
+sudo apt install -y synaptic git vim snapd python3-gpg gdebi insomnia golang-go apt-transport-https ca-certificates software-properties-common gnupg-agent docker-ce calibre gnumeric libreoffice vlc php composer keepassxc steam gimp terraform awscli ansible docker-compose parallel gitg mysql-client pdfshuffler bleachbit php-xml python remmina signal-desktop transmission mplayer kylin-video
 
 ## Docker
 sudo usermod -aG docker ${USER}
